@@ -56,7 +56,7 @@ The accuracy metric may not be appropriate for imbalanced datasets such as this 
 
 ## Loss Graph
 
-![image](https://user-images.githubusercontent.com/99181273/233666503-78a3e3c7-d8f2-4854-899d-7d5060d53b11.png)
+![image](https://user-images.githubusercontent.com/99181273/233668701-2284c502-8473-4d5a-9768-b96ac6b449fc.png)
 
 
 ## Final Metrics
