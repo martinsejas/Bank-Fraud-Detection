@@ -44,7 +44,7 @@ There were many decisions to be made when designing the Neural Network, I will e
 
 **Hyperparameter Tuning**: To tune the learning rate I have decided to implement a learning scheduler in my model. I have a starting learning rate of 0.05, that will be halved every time until epoch 6, after this I implement an exponential decay to the learning rate.
 
-**Model Architecture**: For my model architecture I implemented many different configurations. I found that adding anything more than 2 dense layers would make my problem overlycomplex and before badly. Additionally due to the large amount of features of the transformed data set, I found the need of having stacked hidden layers with 1024 neurons each. I found using a binary number to increase the performance of my model.
+**Model Architecture**: For my model architecture I implemented many different configurations. I found that adding anything more than 2 dense layers would make my problem overlycomplex and perform badly. Additionally due to the large amount of features of the transformed data set, I found the need of having stacked hidden layers with 1024 neurons each. I found using a binary number to increase the performance of my model.
 
 The accuracy metric may not be appropriate for imbalanced datasets such as this one. I may use precision, recall, and F1 score that take into account the imbalance between the classes.
 
